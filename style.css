@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+}
+.header {
+  color: black;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  margin: 0;
+}
