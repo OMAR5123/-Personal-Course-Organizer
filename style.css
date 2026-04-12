@@ -4,9 +4,20 @@ body {
 }
 .header {
   color: black;
-  background-color: red;
+  background-color: blue;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header-links a {
+  color: black;
+  font-size: large;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.header-links a:hover {
+  color: green;
 }
 body {
   margin: 0;
