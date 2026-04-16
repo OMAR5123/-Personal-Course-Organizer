@@ -93,7 +93,14 @@ input[type="submit"] {
   border-radius: 4px;
   font-size: 1rem;
 }
-
+footer {
+  background-color: var(--bgc);
+  border-top: 1px solid var(--b);
+  text-align: center;
+  padding: 16px;
+  color: var(--textm);
+  font-size: 0.85rem;
+}
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
