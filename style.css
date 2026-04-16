@@ -1,5 +1,4 @@
 :root {
-  /*making my variables to shortcut color selection*/
   --h: rgb(34, 190, 179);
   --hd: rgb(20, 140, 130);
   --bg: #0f1117;
@@ -141,4 +140,7 @@ footer {
   main {
     padding: 16px;
   }
+}
+section a {
+  color: var(--h);
 }
